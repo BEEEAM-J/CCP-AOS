@@ -6,11 +6,11 @@
 
     <TextView
         android:id="@+id/category_Name"
-        android:text=".."
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"/>
+        android:layout_gravity="center"
+        android:text="스피너"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

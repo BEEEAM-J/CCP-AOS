@@ -26,6 +26,8 @@
         android:textColor="@color/white"
         android:textSize="23dp"
         android:textStyle="bold"
+        android:maxLines="3"
+        android:ellipsize="end"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/centerLayout"/>
@@ -62,6 +64,8 @@
             android:src="@drawable/ic_baseline_refresh_24" />
 
     </LinearLayout>
+
+
 
 
 

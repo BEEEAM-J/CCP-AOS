@@ -1,3 +1,3 @@
 package com.example.ccp_aos.Network
 
-class categoryList : ArrayList<String>()
+class categoryList : ArrayList<String>(arrayListOf("random"))
